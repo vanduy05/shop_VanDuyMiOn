@@ -1,0 +1,142 @@
+ul{
+    list-style: none;
+
+}
+ul.products li .product-top{
+            position: relative;
+            overflow: hidden;
+}
+ul.products li:hover a.buy-now{
+        bottom: 0px;
+
+}
+ul.products li:hover .product-top .product-themb img{
+            filter: opacity(80%);
+}
+
+ul.products li .product-top a.buy-now{
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        background-color: #446068;
+        color: #fff;
+        padding: 10px 0px;
+        bottom: -36px;
+        width: 100%;
+
+
+}
+ul.products li .product-top .product-themb img{
+        display: block;
+}
+ul.products li .product-top .product-themb{
+        display: block;
+}
+
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+ul.products li .product-info{
+    padding: 15px 0px;
+}
+ul.products li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+ul.products li .product-info a{
+    display: block;
+
+}
+ul.products li .product-info a{
+        border: 1px solid lightyellow;
+        background: chartreuse;
+}
+
+ul.products li .product-info a.product-cat{
+                font-size: 15px;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: black;
+                padding: 3px 0px;
+
+}
+ul.products li .product-info a.product-name{
+    color:black;
+    font-weight: 600;
+    padding: 3px 0px;
+}
+ul.products li .product-info .product-price{
+    color: black;
+    padding: 2px 0px;
+    font-weight: 500;
+    background-color: darkcyan;
+
+}
+.header{   
+    background-image: url(2024.jpg);
+    margin: 0px auto;
+    height: 150px;
+    
+}
+body{
+    font-family: Arial;
+    font-size: 15px;
+    background-image: url(TET.jpg);
+}
+
+ul.main-menu{
+    float: right;
+    margin: 16px auto;
+    width: 900px;
+    filter: opacity(70%);
+}
+ul.main-menu li{
+    float: left ;
+   
+
+}
+ul.main-menu li a{
+        padding: 13px 50px;
+        text-decoration: none;
+        color: black    ;
+       
+}
+ul.menu li a{
+        padding: 13px;
+        text-decoration: none;
+        color: black;
+        clear: both;
+        padding-right: 2px;
+        padding-left: 2px;
+        display: block;
+       
+}     
+ul.menu li button{
+    background-color: cornsilk; 
+
+}
+
+.logo{
+    float: left;    
+}
+.clearfix{
+    clear: both;
+}
+
+    
+
+
+
